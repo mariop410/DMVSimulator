@@ -5,14 +5,14 @@ public class DMVSimulator {
         Random rand = new Random();
         System.out.println("Weclome to the DMV");
 
-        int userNum = rand.nextInt(100) + 1;
+        int userNum = rand.nextInt(200) + 1;
 
         System.out.println("Your number is " + userNum);
         System.out.println("Please wait until your number is called");
 
         int currentNum = userNum + 1;
 
-        if (currentNum > 100) {
+        if (currentNum > 200) {
             currentNum = 1;
         }
 
@@ -20,7 +20,7 @@ public class DMVSimulator {
             System.out.println("Number " + currentNum);
             currentNum += 1;
 
-            if (currentNum > 100) {
+            if (currentNum > 200) {
                 currentNum = 1;
             }
         }
