@@ -30,7 +30,8 @@ public class DMVSimulator {
         int chance = rand.nextInt(100) + 1;
         if (chance == 1) {System.out.println("You have all of the required paperwork and you are all set.");
     } else {
-        System.out.println("You forgot to sign your name at the bottom of this form so go sit back down.");
+        System.out.println("You forgot to sign your name at the bottom of this form so go sit back down. Muah Hah Hah!");
+
     }
 
 
