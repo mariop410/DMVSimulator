@@ -26,6 +26,6 @@ public class DMVSimulator {
         }
 
         System.out.println("Number  " + userNum + " please come up to the desk");
-        System.out.println("You forgot to sign your name at the bottom of this form so go sit back down.");
+        System.out.println("You forgot to sign your name at the bottom of this form so go sit back down. Muah Hah Hah!");
     }
 }
